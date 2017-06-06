@@ -1,0 +1,278 @@
+label {
+    margin-bottom: 7px;
+}
+
+.btn-secondary{
+  background-color: white;
+}
+
+body{
+  background: url('../img/background.png')no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*-----Inicio-------*/
+#divtituloPrincipal{
+  height: 400px;
+  width: 100%;
+}
+
+#tituloPrincipal{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+    left: 34%;
+}
+
+#textoSecundario{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+    left: 8%;
+}
+
+.eresPasajero{
+  position: relative;
+top: 50%;
+transform: translateY(-50%);
+left: 18%;
+width: 300px;
+}
+
+.eresConductor{
+  position: relative;
+top: 50%;
+transform: translateY(-50%);
+left: 27%;
+width: 300px;
+}
+
+.btnBlockChain{
+  position: relative;
+top: 31px;
+transform: translateY(-50%);
+left: 44%;
+}
+
+@media(max-width: 480px){
+
+    #tituloPrincipal{
+        left: 0%;
+    }
+    #textoSecundario{
+        left: 0%;
+    }
+
+    .eresPasajero{
+        left: 6%;
+    }
+    .eresConductor{
+      left: 6%;
+
+    }
+
+    .btnBlockChain{
+        left: 34%;
+    }
+
+}
+
+/*-----Pasajero-------*/
+.ClosePasajero{
+  float:right;
+  display: flex;
+}
+.datosPasjero{
+    height: 272px;
+    border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 0px solid #000000;
+background-color: rgba(148, 217, 253, 0.69);
+    padding: 16px;
+}
+.conductoresDisponibles{
+  height: 272px;
+  overflow: auto;
+}
+
+.btnSeleccionaConductor{
+  display: flex;
+  float: right;
+}
+
+.listNombreConductor{
+  margin: 0;
+    width: 400px;
+    float: left;
+}
+.listDireccionConductor{
+  margin: 0;
+    width: 400px;
+    float: left;
+}
+
+#datosConfirmacion{
+  border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 0px solid #000000;
+  background-color: rgba(148, 253, 185, 0.63);
+  padding: 16px;
+}
+
+.listOrigenContrato{
+  margin: 0;
+    width: 400px;
+    float: left;
+}
+.listDestinoContrato{
+  margin: 0;
+    width: 400px;
+    float: left;
+}
+.listPrecioContrato{
+  margin: 0;
+    width: 400px;
+    float: left;
+}
+.listllaveContrato{
+  margin: 0;
+    width: 400px;
+    float: left;
+}
+.listLlaveConductor{
+  margin: 0;
+    width: 411px;;
+    float: left;
+}
+.divconfirmaServicio{
+  display: flex;
+  float: right;
+}
+.divcancelaServicio{
+  display: flex;
+  float: right;
+  margin-right: 11px;
+}
+/*-----Condutor-------*/
+.CloseConductor{
+  float:right;
+  display: flex;
+}
+.datosConductor{
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 0px solid #000000;
+  background-color: rgba(249, 221, 168, 0.73);
+  padding: 16px;
+}
+
+.listOrigenContrato{
+  margin: 0;
+    width: 400px;
+    float: left;
+}
+
+.listDestinoContrato{
+  margin: 0;
+    width: 400px;
+    float: left;
+}
+
+.listPrecioContrato{
+  margin: 0;
+    width: 400px;
+    float: left;
+}
+.listllaveContrato{
+  margin: 0;
+    width: 400px;
+    float: left;
+}
+.listLlaveConductor{
+  margin: 0;
+    width: 411px;;
+    float: left;
+}
+
+.divconfirmaServicioConductor{
+  display: flex;
+  float: right;
+}
+
+.divcancelaServicioConductor{
+  display: flex;
+  float: right;
+  margin-right: 11px;
+}
+/*-----Registro-------*/
+.CloseRegistro{
+  float:right;
+  display: flex;
+}
+.listContratoAddress{
+  margin: 0;
+    width: 411px;
+    float: left;
+}
+
+.listContratoBuyer{
+  margin: 0;
+    width: 411px;
+    float: left;
+}
+
+.listContratoSeller{
+  margin: 0;
+    width: 411px;
+    float: left;
+}
+
+.listContratoOrigen{
+  margin: 0;
+    width: 411px;
+    float: left;
+}
+
+.listContratoDestino{
+  margin: 0;
+    width: 411px;
+    float: left;
+}
+
+.listContratoPrecio{
+  margin: 0;
+    width: 411px;
+    float: left;
+}
+
+.listTransacionAddress{
+  margin: 0;
+    width: 411px;
+    float: left;
+}
+.listTransacionesBuyer{
+  margin: 0;
+    width: 411px;
+    float: left;
+}
+.listTransaccionesSeller{
+  margin: 0;
+    width: 411px;
+    float: left;
+}
+.listTransaccionesEstado{
+  margin: 0;
+    width: 411px;
+    float: left;
+}
+.listContratoPrecio{
+  margin: 0;
+    width: 411px;
+    float: left;
+}
